@@ -1,5 +1,10 @@
+/* poppins 라는 구글 폰트 가져오기 */
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap");
 
+/*  
+마진, 패딩 0으로 초기화
+박스사이징, 글꼴 초기화
+*/
 * {
   margin: 0;
   padding: 0;
