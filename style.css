@@ -16,13 +16,18 @@ body {
   justify-content: center;
   align-items: center;
   height: 100vh;
-  background: #67c6e3;
+  background: url("images/bg_lightblue.jpg") no-repeat center;
+  background-size: cover;
 }
 
 .wrapper {
   width: 420px;
   background: #378ce7;
-  color: #fff;
+  background-color: transparent;
+  border: 2px solid #5356ff;
+  backdrop-filter: blur(20px); /* 영역 뒷 배경 필터 - 블러효과 추가 */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  color: #5356ff;
   border-radius: 10px;
   padding: 30px 40px;
 }
@@ -44,15 +49,15 @@ body {
   background: transparent; /* 부모 배경 색과 동일 */
   border: none;
   outline: none; /* 기본 포커스 스타일 사라짐.*/
-  border: 2px solid rgba(255, 255, 255, 0.2);
+  border: 2px solid #5356ff;
   border-radius: 40px;
   font-size: 16px;
-  color: #fff;
+  color: #5356ff;
   padding: 20px 45px 20px 20px;
 }
 
 .input-box input::placeholder {
-  color: #fff;
+  color: #5356ff;
 }
 
 .input-box {
@@ -81,7 +86,7 @@ body {
 }
 
 .remember-forgot a {
-  color: #fff;
+  color: #5356ff;
   text-decoration: none;
 }
 
@@ -92,14 +97,14 @@ body {
 .wrapper .btn {
   width: 100%;
   height: 45px;
-  background: #fff;
+  background: #5356ff;
   border: none;
   outline: none;
   border-radius: 40px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   cursor: pointer; /* 마우스가 hover 되었을때 포인터가 바뀜 */
   font-size: 16px;
-  color: #333;
+  color: #ffffff;
   font-weight: bold;
 }
 
@@ -110,7 +115,7 @@ body {
 }
 
 .register-link p a {
-  color: #fff;
+  color: #5356ff;
   text-decoration: none;
   font-weight: bold;
 }
